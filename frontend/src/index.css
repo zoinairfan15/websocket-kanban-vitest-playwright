@@ -61,3 +61,7 @@ body { font-family: system-ui, sans-serif; background: #f1f5f9; color: #1e293b; 
 .kb-modal-actions button { padding:8px 16px; border-radius:8px; border:1px solid #e2e8f0; cursor:pointer; }
 .kb-error    { color:#ef4444; font-size:.8rem; margin-top:4px; }
 .kb-loading  { text-align:center; padding:40px; color:#94a3b8; }
+.kb-pie-wrap    { display:flex; align-items:center; gap:16px; }
+.kb-pie-legend  { display:flex; flex-direction:column; gap:6px; }
+.kb-legend-item { display:flex; align-items:center; gap:8px; font-size:.82rem; color:#475569; }
+.kb-legend-dot  { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
